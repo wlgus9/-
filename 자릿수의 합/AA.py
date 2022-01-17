@@ -3,9 +3,6 @@ sys.stdin=open("자릿수의 합/in1.txt", "r")
 n = int(input())
 num_list = list(map(int, input().split()))
 
-# n = 15
-# num_list = [770, 93, 883, 659, 641, 446, 354, 227, 338, 178, 510, 357, 560, 362, 884]
-
 def digit_sum(x):
     sum = 0
     while x>0:
