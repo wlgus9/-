@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('숫자만 추출/in1.txt', 'r')
+sys.stdin = open('섹션 3/2. 숫자만 추출/in1.txt', 'r')
 
 n = input()
 num = 0

@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('카드 역배치/in1.txt', 'r')
+sys.stdin = open('섹션 3/3. 카드 역배치/in1.txt', 'r')
 
 card = list(range(21)) #인덱스와 숫자를 일치시키기 위해 0부터 20까지의 값을 가지는 리스트 생성
 

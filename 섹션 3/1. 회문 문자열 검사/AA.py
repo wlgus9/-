@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('회문 문자열 검사/in1.txt', 'r')
+sys.stdin = open('섹션 3/1. 회문 문자열 검사/in1.txt', 'r')
 
 n = int(input())
 
