@@ -1,4 +1,3 @@
-from re import L
 import sys
 sys.stdin = open('회문 문자열 검사/in1.txt', 'r')
 
