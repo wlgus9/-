@@ -1,13 +1,8 @@
 import sys
-sys.stdin = open('섹션 3/6. 격자판 최대합/in3.txt', 'r')
+sys.stdin = open('섹션 3/6. 격자판 최대합/in1.txt', 'r')
 
 n = int(input())
-
-a = [[0]*n for i in range(n)]
-for i in range(n):
-    b = list(map(int, input().split()))
-    a[i] = b     
-
+a = [list(map(int, input().split())) for _ in range(n)]
 row = 0
 col = 0
 max = 0
